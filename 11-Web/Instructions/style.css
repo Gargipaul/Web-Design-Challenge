@@ -4,12 +4,12 @@ body {
 /* every box is this size */
 
 .skyblue {
-  background: rgb(140, 220, 247);
+  background: skyblue;
 }
 
 .box{
-  padding: 20px;
-  background: rgb(230, 223, 223);
+  padding: 10px;
+  background: skyblue;
   margin-top:50px;
   margin-left:5px;
   margin-right:5px;
@@ -23,15 +23,15 @@ body {
   margin-right: 0px;
   margin-left: 0px;
   padding: 25px;
-  background: rgb(228, 233, 238);
+  background: skyblue;
 }
 
 /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
 .navbar li {
   display: d-block;
   padding: 10px;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
   cursor: pointer;
 }
 h1 {
@@ -44,25 +44,27 @@ h2 {
 
 p{
     font-size: 20px;
+    
+  
 }
 
 
-.c-d{color:white;
+.c-d{color: skyblue;
   font-size: 25px;
 }
 
 .latitude {
-  color: white;
+  color: rgb(195, 195, 212);
   font-family: verdana;
   font-size: 40px;
-  background-color: rgb(169, 212, 230);
-  border: 2px solid rgb(92, 179, 236);
-    padding: 20px;
+  background-color: rgb(179, 208, 228);
+  border: 1px solid rgb(179, 208, 228);
+  padding: 15px;
 }
 /* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
 @media (max-width: 480px) {
   .navbar li {
-    padding: 20px;
+    padding: 10px;
   }
   .box {
     margin-right: 20px;
